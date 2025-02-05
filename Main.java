@@ -1,6 +1,6 @@
 // NumberPrinter เป็นคลาสที่สืบทอดจาก Thread และมี run() ที่จะทำงานเมื่อเริ่ม thread
 //ใน run() จะพิมพ์เลข 1-50 และมีการดีเลย์แบบสุ่มเพื่อจำลองการทำงานของ thread หลายตัวพร้อมกัน
-
+import java.util.Random;
 // สร้างคลาสสำหรับพิมพ์ตัวเลข โดยทำงานเป็น thread
 class NumberPrinter extends Thread {
     private int threadNumber;  // ตัวแปรเก็บหมายเลข ของ thread
